@@ -17,3 +17,13 @@ const a = prompt("Один из последних просмотренных ф
       personalMovieDB.movies[c] = d;
 
       console.log(personalMovieDB);
+
+
+
+      
+      for (let i = 1; i < 10; i++) {
+        if (i===6) {  
+        continue;
+        }
+        console.log(i);
+      }
